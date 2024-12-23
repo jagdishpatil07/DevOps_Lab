@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funny Welcome Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #ffeb3b;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0.5rem;
+            color: #ff5722;
+            text-shadow: 2px 2px #fff;
+        }
+        p {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+            animation: shake 2s infinite;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            color: #fff;
+            text-decoration: none;
+            background-color: #673ab7;
+            border-radius: 15px;
+            box-shadow: 0px 5px #311b92;
+            transition: all 0.3s ease;
+        }
+        a:hover {
+            background-color: #311b92;
+            box-shadow: 0px 5px #673ab7;
+            transform: translateY(-5px);
+        }
+        @keyframes shake {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            50% { transform: translateX(5px); }
+            75% { transform: translateX(-5px); }
+            100% { transform: translateX(0); }
+        }
+        .emoji {
+            font-size: 5rem;
+            animation: spin 4s linear infinite;
+        }
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>😂 Welcome to the Fun Zone! 🎉</h1>
+        <p>Are you ready to laugh till your stomach hurts? Let's go!</p>
+        <div class="emoji">🤣</div>
+        <a href="index.html">Click here for serious fun! 😜</a>
+    </div>
+</body>
+</html>

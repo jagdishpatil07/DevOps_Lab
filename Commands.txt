@@ -1,0 +1,30 @@
+Docker Images:
+
+ 
+
+docker pull <image-name>
+
+docker images
+
+docker rmi <image-id>
+
+Docker Container
+
+docker ps -> all running container
+
+docker ps -a     -> all running/non-running containers
+
+docker rm <cont-id>
+
+docker run <image-name>
+
+docker run -it <img> /bin/bash 
+
+docker start <cont-id>    
+
+docker exec -it <cont-id> /bin/bash
+
+docker stop <cont-id>
+
+
+http://13.201.167.157:8008/    ---- for url aws
